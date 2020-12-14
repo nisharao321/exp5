@@ -452,6 +452,8 @@ function magic() {
 
   }
   if (simsubscreennum === 8) {
+    refresh('right11', 'right22', 'right33', 'right44');
+    refresh1('h11', 'h22', 'h33', 'h44');
     var stepSkip = document.getElementById("can8-1");
     stepSkip.classList.toggle('fade');
     setTimeout(function () {
@@ -459,8 +461,7 @@ function magic() {
     }, 500);
   }
   if (simsubscreennum === 9) {
-    refresh('right11', 'right22', 'right33', 'right44');
-    refresh1('h11', 'h22', 'h33', 'h44');
+  
     document.getElementById('can8-1').style.visibility = "hidden";
     document.getElementById('k1').style.visibility = "visible";
     //document.getElementById('k2').innerHTML = "2.The velocity of air at 400 rpm is="+data8[p][4]+"m/s.";

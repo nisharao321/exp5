@@ -127,13 +127,13 @@ function animateArrowATPosition(left, top, height, degg) {
 }
 function magic() {
   if (simsubscreennum === 1) {
-    document.getElementById('x').style.visibility = "visible";
+   // document.getElementById('x').style.visibility = "visible";
     myInt = setInterval(function () { animatearrow(); }, 500);
     animateArrowATPosition(245, 220, 20, 270);
     document.getElementById("slider2").onclick = function () { step1(); };
   }
   if (simsubscreennum === 2) {
-    document.getElementById('x').style.visibility = "hidden";
+    //document.getElementById('x').style.visibility = "hidden";
     document.getElementById('switch2').style.visibility = "hidden";
     document.getElementById('Sample01').style.visibility = "hidden";
     document.getElementById('m11').style.display = "none";

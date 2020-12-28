@@ -69,6 +69,6 @@
 22. Repeat the same procedure to calculate the resistance R<sub>23</sub>, R<sub>34</sub>, R<sub>14</sub>. <br>
 <img src="images/R22.png"><br>
 
-23. Results is being displayed.<br>
+23. Result is being displayed.<br>
 <img src="images/R23.png"><br> 
 

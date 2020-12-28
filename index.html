@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-
   <title>SOLVE</title>
   <link rel="stylesheet" href="css/Lab4.css" />
   <script type="text/javascript" src="js/Lab4.js"></script>
@@ -25,7 +24,9 @@
   <div id="simscreen">
     <!--Title of Simulation		-->
     <div id="title">
-      <h3>LAW OF THE RESISTANCE OF SYSTEM OF DUCTS</h3>
+      <h3 style=" position:absolute;top:5px;
+      font-size: 19px;
+     ">LAW OF THE RESISTANCE OF A SYSTEM OF DUCTS CONNECTED IN SERIES</h3>
     </div>
     <!--SubScreen Home	-->
     <div class="simsubscreen" id="canvas0">
@@ -36,7 +37,7 @@
         Rubber Tubes, Ventilation Duct etc.</p>
       <span class="tooltip"
         style="border-bottom:1px dotted ; color:red; position:absolute; left:5px;top:140px;"><strong>Description</strong>
-        <span class="tooltiptext" style="text-align:justify;left:90px;top:6px;"><strong style="color:red;">Resistance in Series :</strong>If two or more airways are connected in series then each of those sets of resistances may be combined into a single equivalent resistances allows considerable simplification of the schematic representation of actual subsurface ventilation systems.</span></span>
+        <span class="tooltiptext" style="text-align:justify;left:90px;top:6px;"><strong style="color:red;">Resistance in Series:</strong> If two or more airways are connected in series then each of those sets of resistance may be combined into a single equivalent resistance. It allows considerable simplification of the schematic representation of actual subsurface ventilation systems.</span></span>
       <img id="" style="position: absolute; left: 0px; top: 260px; width:auto;height:250px;" title=""
         src="Images/human.png" />
       <div class="img_wrap">
@@ -319,8 +320,14 @@
         style="position:absolute;left:500px;top:100px;font-family:verdana;font-size:14px;padding:5px;background-color:black;color:white;visibility:hidden;border-radius:5px;text-align:justify;width:220px;">
         Second flexible rubber tube is connected to the Total Head</p>
       <p id="Sample3"
-        style="position:absolute;left:500px;top:100px;font-family:verdana;font-size:14px;padding:5px;background-color:black;color:white;visibility:hidden;border-radius:5px;text-align:justify;width:220px;">
+        style="position:absolute;left:500px;top:100px;font-family:verdana;font-size:14px;padding:5px;background-color:#000000;color:white;visibility:hidden;border-radius:5px;text-align:justify;width:220px;">
         Both flexible rubber tubes are connected to the Static Head and Total Head</p>
+      <p id="R1" style="font-family:Verdana;position:absolute;left:525px;top:185px;color:red;visibility:hidden">R<sub>1</sub></p>
+      <p id="R2" style="font-family:Verdana;position:absolute;left:312px;top:225px;color:red;visibility:hidden">R<sub>2</sub></p>
+      <p id="R3"style="font-family:Verdana;position:absolute;left:169px;top:110px;color:red;visibility:hidden">R<sub>3</sub></p>
+      <p id="R4" style="font-family:Verdana;position:absolute;left:320px;top:100px;color:red;visibility:hidden">R<sub>4</sub></p>
+      <!-- <span style="font-size:100px">&#x2194;</span> -->
+      <!-- <p id="R4" style="font-family:Verdana;position:absolute;left:320px;top:100px;color:red;">&#x2194;</p> -->
       <p id='para' style="position:absolute;top: 430px;left:45px; font-family:verdana; font-size:14px;"></p>
       <p id="para1" style="position:absolute;top: 430px; left:135px;font-family:verdana; font-size:14px;"></p>
       <p id="para2" style="position:absolute;top:460px;left:135px;font-family:verdana; font-size:14px;"></p>

@@ -66,7 +66,7 @@
 21. Click on the NEXT button at the bottom right corner to proceed to the next step.<br>
 <img src="images/R21.png"><br>
 
-22. Repeat the same procedure to calculate the resistance R<sup>23</sup>, R<sup>34</sup>, R<sup>14</sup>. <br>
+22. Repeat the same procedure to calculate the resistance R<sub>23</sub>, R<sub>34</sub>, R<sub>14</sub>. <br>
 <img src="images/R22.png"><br>
 
 23. Results is being displayed.<br>

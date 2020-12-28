@@ -127,13 +127,13 @@ function animateArrowATPosition(left, top, height, degg) {
 }
 function magic() {
   if (simsubscreennum === 1) {
-   // document.getElementById('x').style.visibility = "visible";
+  //  document.getElementById('x').style.visibility = "visible";
     myInt = setInterval(function () { animatearrow(); }, 500);
     animateArrowATPosition(245, 220, 20, 270);
     document.getElementById("slider2").onclick = function () { step1(); };
   }
   if (simsubscreennum === 2) {
-    //document.getElementById('x').style.visibility = "hidden";
+  //  document.getElementById('x').style.visibility = "hidden";
     document.getElementById('switch2').style.visibility = "hidden";
     document.getElementById('Sample01').style.visibility = "hidden";
     document.getElementById('m11').style.display = "none";
@@ -149,6 +149,8 @@ function magic() {
   }
 
   if (simsubscreennum === 3) {
+    
+
     document.getElementById('table1').style.display = "none";
     document.getElementById('ca-1').style.visibility = "hidden";
     document.getElementById('ca-2').style.visibility = "hidden";
@@ -159,11 +161,15 @@ function magic() {
     document.getElementById('ok').onclick = function () {
       document.getElementById('10').style.visibility = "hidden";
       document.getElementById('ok').style.visibility = "hidden";
+      document.getElementById('R1').style.visibility = "visible";
+    document.getElementById('R2').style.visibility = "visible";
+    document.getElementById('R3').style.visibility = "visible";
+    document.getElementById('R4').style.visibility = "visible";
       document.getElementById('a23').style.visibility = "visible";
       document.getElementById('a22').style.visibility = "visible";
       document.getElementById('scale').style.visibility = "visible";
       myInt = setInterval(function () { animatearrow(); }, 500);
-      animateArrowATPosition(470, 280, 30, -90);
+      animateArrowATPosition(485, 290, 30, -90);
       document.getElementById('a22').onclick = function () {
         myStopFunction();
         document.getElementById('a22').onclick = "";
@@ -173,6 +179,10 @@ function magic() {
         document.getElementById('a24').onclick = function () {
           myStopFunction();
           document.getElementById('a24').onclick = "";
+          document.getElementById('R1').style.visibility = "hidden";
+          document.getElementById('R2').style.visibility = "hidden";
+          document.getElementById('R3').style.visibility = "hidden";
+          document.getElementById('R4').style.visibility = "hidden";
           document.getElementById('a24').style.visibility = "hidden";
           document.getElementById('a22').style.visibility = "hidden";
           document.getElementById('a23').style.visibility = "hidden";
@@ -226,6 +236,11 @@ function magic() {
     };
   }
   if (simsubscreennum === 4) {
+    document.getElementById('R1').style.visibility = "hidden";
+    document.getElementById('R2').style.visibility = "hidden";
+    document.getElementById('R3').style.visibility = "hidden";
+    document.getElementById('R4').style.visibility = "hidden";
+
     document.getElementById('ax1').style.visibility = "hidden";
     document.getElementById('ax2').style.visibility = "hidden";
     document.getElementById('pipe1').style.visibility = "hidden";
@@ -438,7 +453,7 @@ function magic() {
     document.getElementById('right4-1').style.visibility = "hidden";
     refresh('right-1', 'right1-1', 'right2-1', 'right3-1');
     refresh1('h1-1', 'h2-1', 'h3-1', 'h4-1');
-    document.getElementById("q1").innerHTML = data5[p][5];
+    document.getElementById("v2").innerHTML = data6[p][6];
 
     calc2('button11', 'output11', 'output11', 'button11', 'output11', 'button22', 'button11', 'wrong11', 'wrong11', 'right11', 'button22', 'h11', 'h11', 'output11', 'wrong11', 'right11', 'right11', 'h11', 'h11', 'button11', 5);
     calc2('button22', 'output22', 'output22', 'button22', 'output22', 'button33', 'button22', 'wrong22', 'wrong22', 'right22', 'button33', 'h22', 'h22', 'output22', 'wrong22', 'right22', 'right22', 'h22', 'h22', 'button22', 6);

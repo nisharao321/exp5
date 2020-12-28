@@ -13,7 +13,7 @@ Some specifications of a series circuit are -:
  
 <ul style="text-indent:50px;text-align:justify;list-style-position: inside;">
 <li>The quantity of air flowing through each airway is same i.e Q = Q<sub>1</sub>=Q<sub>2</sub>=Q<sub>3</sub> (Please refer Fig 1) </li>
-<li>The total pressure drop across A and B (Fig 1) is equal to the pressure drop across airways 1 ,2 and 3 i.e., P = P<sub>1</sub>+P<sub>2</sub>+P<sub>3</sub></li>
+<li>The total pressure drop across A and B (Fig 1) is equal to the pressure drop across airways 1 , 2 and 3 i.e., P = P<sub>1</sub>+P<sub>2</sub>+P<sub>3</sub></li>
 </ul>
 
 <center>
@@ -44,7 +44,7 @@ R<sub>eq</sub> = ∑ R<sub>i</sub>
 ## Merits 
 <ul style="text-indent:50px;text-align:justify;list-style-position: inside;">
 <li>It uses air more efficiently as it is more used up in its path.</li> 
-<li>Nowadays for higher production we need to go for large development size of airways. Conventionally, it used to be 3m x3m, but now a day’s 6m x 6m is more commonly used in many parts of the world. In this case series connection is advantageous as we can maintain the air velocity (since Q= V x A).</li>
+<li>Nowadays for higher production we need to go for large development size of airways. Conventionally, it used to be 3m x3m, but now a day’s 6m x 6m is more commonly used in many parts of the world. In this case series connection is advantageous as we can maintain the air velocity (since Q = V x A).</li>
 <li>Series circuits are simple circuits as there are no splits.</li>
 <li>There is a lesser need for Ventilation Control Devices (VCD) in particular regulators. 
 There are less chances of leakage of air.</li> 

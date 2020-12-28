@@ -12,12 +12,12 @@ Voltage drop (V) = Pressure drop (P) in Pa</p>
 Some specifications of a series circuit are -:
  
 <ul style="text-indent:50px;text-align:justify;list-style-position: inside;">
-<li>The quantity of air flowing through each airway is same i.e Q = Q<sup>1</sup>=Q<sup>2</sup>=Q<sup>3</sup> (Please refer Fig 1) </li>
-<li>The total pressure drop across A and B (Fig 1) is equal to the pressure drop across airways 1 ,2 and 3 i.e., P = P<sup>1</sup>+P<sup>2</sup>+P<sup>3</sup></li>
+<li>The quantity of air flowing through each airway is same i.e Q = Q<sub>1</sub>=Q<sub>2</sub>=Q<sub>3</sub> (Please refer Fig 1) </li>
+<li>The total pressure drop across A and B (Fig 1) is equal to the pressure drop across airways 1 ,2 and 3 i.e., P = P<sub>1</sub>+P<sub>2</sub>+P<sub>3</sub></li>
 </ul>
 
 <center>
-  <img src="images/ducts.png" height="250" width="425">
+  <img src="images/ducts.png" height="250" width="450">
   <center>Fig 1. Resistance connected in series</center><br>
   <center>Source: (<a href="https://nptel.ac.in/courses/123/106/123106002/">https://nptel.ac.in/courses/123/106/123106002/
 </a>)
@@ -36,7 +36,7 @@ When air flow occurs in two or more roadways in series, quantity of air, flowing
 <p style="text-indent:10px;text-align:justify">R<sub>equ</sub>  = Equivalent resistance of n roadways connected in series and R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>,……………………………….. R<sub>n</sub></p>
 
 In general, for ‘n’ number of airways connected in series we get-: 
-R<sub>eq</sub> = ∑_(i=1)^(i=n)▒Ri
+R<sub>eq</sub> = ∑ R<sub>i</sub>
 
 
 ### MERITS AND DEMERITS OF SERIES AIRWAYS 

@@ -1,1 +1,1 @@
-## Determination of the shock loss factor for a U bend in the Ventilation duct
+## To verify the law of the resistance of a system of ducts connected in series.

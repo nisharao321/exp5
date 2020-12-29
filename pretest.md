@@ -2,7 +2,7 @@
 #### Please attempt the following questions
 
 <br>
-Q 1. What’s remain same in series connected roadways?<br>
+Q 1. Which parameter remains same in series connected roadways?<br>
 a. Pressure<br>
 <b>b. Quantity of air</b><br>
 c. Resistance<br>

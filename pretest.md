@@ -14,7 +14,7 @@ b. R<sub>equ</sub>  =  R<sub>1</sub>+ R<sub>2</sub>+ R<sub>3</sub>+…………�
 c. Q = Q<sub>1</sub>+Q<sub>2</sub>+Q<sub>3</sub>+……………………………………Q<sub>n</sub> <br>
 <b>d. Both a & b</b><br>
 
-Q 3. In general, which connection offer more resistance if no of individual resistance is same?<br>
+Q 3. In general, which connection offer more resistance if number of individual resistance is same?<br>
 <b>a. Series</b><br>
 b. Parallel <br>
 c. Both offer same equivalent resistance<br>

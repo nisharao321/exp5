@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "What’s remain same in series connected roadways?",
+      question: "Which parameter remains same in series connected roadways?",
       answers: {
         a: "Pressure",
         b: "Quantity of air",
@@ -100,7 +100,7 @@
       correctAnswer: "d"
     },
     {
-      question: "In general, which connection offer more resistance if no of individual resistance is same?",
+      question: "In general, which connection offer more resistance if number of individual resistance is same?",
       answers: {
         a: "Series",
         b: "Parallel",

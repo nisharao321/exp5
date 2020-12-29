@@ -31,7 +31,7 @@ b. B+J-1<br>
 c. B-J-1<br>
 <b>d. B-J+1</b><br>
 
-Q 6. If m is the no of mesh in a ventilation network, order of equation of polynomial required to solve network by Kirchhoff’s laws is equal to
+Q 6. If m is the no of mesh in a ventilation network, order of equation of polynomial required to solve network by Kirchhoff’s laws is equal to<br>
 <b>a. 2<sup>(m-1)</sup></b><br>
 b. 2<sup>(m+1)</sup><br>
 c. 2<sup>(m)</sup><br>
